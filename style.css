@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gamehouse {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+}
+
+#doorImage {
+    width: 100%;
+    height: 100vh;
+    /* object-fit: contain */
+}
+
+
+.click-area {
+  position: absolute;
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.3); 
+  border: 1px solid #000;
+
+}
+.clickarea {
+  position: absolute;
+  cursor: pointer;
+  /* background-color: rgba(255, 0, 0, 0.3);  
+   border: 1px solid #000; */
+
+}
+#door {
+     top: 68px;
+    left: 172px;
+    width: 462px;
+    height: 563px;
+}
+
+#bookself{
+     top: 104px;
+    left: 1343px;
+    width: 462px;
+    height: 520px;
+}
+#safe {
+       top: 346px;
+    left: 466px;
+    width: 69px;
+    height: 78px;
+    border-radius: 7px;
+}
+#saffe{
+         top: 654px;
+    left: 1609px;
+    width: 84px;
+    height: 80px;
+    border-radius: 7px;
+}
+#locker {
+    top: 344px;
+    left: 960px;
+    width: 204px;
+    height: 120px;
+    border-radius: 7px;
+}
+#laptop {
+    top: 364px;
+    left: 675px;
+    width: 201px;
+    height: 100px;
+    border-radius: 26px;
+}
+#dror {
+  top: 492px;
+  left: 609px;
+    width: 219px;
+    height: 185px;
+    border-radius: 7px;
+}
+#key{
+    top: 429px;
+    left: 904px;
+    width: 137px;
+    height: 52px;
+    border-radius: 147px;
+}
+#pot {
+    top: 548px;
+    left: 1239px;
+    width: 125px;
+    height: 99px;
+    border-radius: 25px
+}
+
+#painting {
+        top: 106px;
+    left: 780px;
+    width: 365px;
+    height: 191px;
+}
+
+#clue {
+     top: 706px;
+     left: 1345px;
+     width: 253px;
+     height: 76px;
+    }
+    
+    
+#timer {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  background-color: #000;
+  color: #fff;
+  font-size: 24px;
+  font-family: monospace;
+  padding: 8px 16px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+
+@media (max-width: 1024px){
+    .click-area {
+        position: absolute;
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.3); 
+  border: 1px solid #000;
+  
+}
+.gamehouse {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+}
+#doorImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain
+}
+
+
+#door {
+    top: 79px;
+    left: 72px;
+        width: 169px;
+        height: 570px;
+    }
+    
+    #bookself{
+               top: 114px;
+        left: 540px;
+        width: 166px;
+        height: 557px;
+    }
+    #safe {
+              top: 374px;
+        left: 187px;
+        width: 33px;
+        height: 78px;
+        border-radius: 7px;
+}
+#painting {
+    top: 106px;
+    left: 310px;
+    width: 159px;
+    height: 202px;
+
+}
+
+#locker {
+            top: 367px;
+        left: 387px;
+        width: 85px;
+        height: 127px;
+        border-radius: 7px;
+}
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escape The Room - Intro</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    #boxpart {
+      background-color: aqua;
+      width: 80%;
+      max-width: 800px;
+      padding: 30px;
+      border-radius: 20px;
+      border: 4px solid wheat;
+      color: black;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    button a {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+   
+    }
+      @keyframes backgroundShift {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="boxpart">
+    <h1>Escape-The Room</h1>
+    <h2>Welcome to the Game</h2>
+    <p>
+      Escape-The Room is a thrilling adventure game where you must solve puzzles and find clues to escape from a locked room.
+      Use your wits and problem-solving skills to uncover the secrets hidden within.
+    </p>
+    <h2>How to Play</h2>
+    <p>
+      To play the game, click on the "Play" button below. You will be taken to the game interface where you can start your adventure.
+      Explore the room, interact with objects, and solve puzzles to find your way out. <mark>You have maximum 12 click chances.</mark>
+    </p>
+
+
+    <!-- //480px: Compact layout with large touch targets
+Large phones (480px-768px): Balanced layout with good visibility
+Tablets (768px-1024px): Spacious layout maintaining game aesthetics
+Laptops/Desktop 1024px+ -->
+
+
+
+    <button><a href="./main.html">Play</a></button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script>
+   
+    gsap.to("#boxpart", {
+      opacity: 1,
+      y: -20,
+      duration: 2,
+      ease: "power2.out",
+     
+    });
+
+   
+    gsap.to("body", {
+      backgroundPosition: "200% 0%",
+      duration: 15,
+      repeat: -1,
+      yoyo: true,
+      ease: "linear"
+    });
+  </script>
+</body>
+</html>
+
