@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 .gamehouse {
     position: relative;
     width: 100%;
