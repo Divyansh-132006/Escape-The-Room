@@ -4,21 +4,27 @@
 }
 
 html, body {
+  padding: 0;
+  margin: 0;
   overflow-x: hidden;
-  box-sizing: border-box;
+  overflow-y: auto;
+  height: 100%;
 }
 
 .gamehouse {
     position: relative;
-    width: 100vw;
-    margin: auto;
-    height: 100vh;
+  width: 100%;
+  max-width: 1600px; /* or image width */
+  margin: auto;
+  height: auto; /* 👈 important */
+  overflow: hidden; /* prevent scroll from inside */
 }
 
 #doorImage {
-    width: 100%;
-    height: auto;
-    object-fit: contain
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 
