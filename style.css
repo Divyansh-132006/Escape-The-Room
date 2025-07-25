@@ -16,7 +16,7 @@ html, body {
   width: 100%;
   max-width: 1600px; /* or image width */
   margin: auto;
-  height: auto; /* 👈 important */
+  height: 100vh; /* 👈 important */
   overflow: hidden; /* prevent scroll from inside */
 }
 
@@ -24,7 +24,7 @@ html, body {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: contain;
+/*   object-fit: contain; */
 }
 
 
@@ -44,16 +44,16 @@ html, body {
 }
 #door {
      top: 62px;
-    left: 142px;
+    left: 132px;
     width: 462px;
     height: 563px;
 }
 
 #bookself{
      top: 95px;
-    left: 1263px;
-    width: 462px;
-    height: 520px;
+    left: 1143px;
+    width: 422px;
+    height: 480px;
 }
 #safe {
        top: 346px;
@@ -63,8 +63,8 @@ html, body {
     border-radius: 7px;
 }
 #saffe{
-        top: 604px;
-    left: 1289px;
+        top: 504px;
+    left: 1319px;
     width: 84px;
     height: 80px;
     border-radius: 7px;
@@ -77,7 +77,7 @@ html, body {
     border-radius: 7px;
 }
 #laptop {
-    top: 364px;
+    top: 334px;
     left: 675px;
     width: 201px;
     height: 100px;
@@ -85,7 +85,7 @@ html, body {
 }
 #dror {
   top: 492px;
-  left: 609px;
+  left: 589px;
     width: 219px;
     height: 185px;
     border-radius: 7px;
@@ -98,8 +98,8 @@ html, body {
     border-radius: 147px;
 }
 #pot {
-    top: 558px;
-    left: 1239px;
+    top: 548px;
+    left: 1229px;
     width: 125px;
     height: 99px;
     border-radius: 25px
@@ -113,7 +113,7 @@ html, body {
 }
 
 #clue {
-       top: 604px;
+       top: 571px;
     left: 1289px;
     width: 84px;
     height: 80px;
