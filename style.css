@@ -43,35 +43,35 @@ html, body {
 
 }
 #door {
-     top: 68px;
-    left: 172px;
+     top: 62px;
+    left: 142px;
     width: 462px;
     height: 563px;
 }
 
 #bookself{
-     top: 104px;
-    left: 1343px;
+     top: 95px;
+    left: 1263px;
     width: 462px;
     height: 520px;
 }
 #safe {
        top: 346px;
-    left: 466px;
+    left: 366px;
     width: 69px;
     height: 78px;
     border-radius: 7px;
 }
 #saffe{
-         top: 654px;
-    left: 1609px;
+        top: 604px;
+    left: 1289px;
     width: 84px;
     height: 80px;
     border-radius: 7px;
 }
 #locker {
     top: 344px;
-    left: 960px;
+    left: 990px;
     width: 204px;
     height: 120px;
     border-radius: 7px;
@@ -98,7 +98,7 @@ html, body {
     border-radius: 147px;
 }
 #pot {
-    top: 548px;
+    top: 558px;
     left: 1239px;
     width: 125px;
     height: 99px;
@@ -113,10 +113,11 @@ html, body {
 }
 
 #clue {
-     top: 706px;
-     left: 1345px;
-     width: 253px;
-     height: 76px;
+       top: 604px;
+    left: 1289px;
+    width: 84px;
+    height: 80px;
+    border-radius: 7px;
     }
     
     
