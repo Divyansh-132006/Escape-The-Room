@@ -17,12 +17,12 @@ html, body {
   max-width: 1600px; /* or image width */
   margin: auto;
   height: 100vh; /* 👈 important */
-  overflow: hidden; /* prevent scroll from inside */
+/*   overflow: hidden; /* prevent scroll from inside */ */
 }
 
 #doorImage {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 /*   object-fit: contain; */
 }
@@ -98,18 +98,18 @@ html, body {
     border-radius: 147px;
 }
 #pot {
-    top: 548px;
-    left: 1229px;
+    top: 488px;
+    left: 1129px;
     width: 125px;
     height: 99px;
     border-radius: 25px
 }
 
 #painting {
-        top: 106px;
-    left: 780px;
-    width: 365px;
-    height: 191px;
+        top: 96px;
+    left: 680px;
+    width: 345px;
+    height: 161px;
 }
 
 #clue {
