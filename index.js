@@ -10,12 +10,12 @@ let room2Code = Math.floor(100 + Math.random() * 900);
 
 const possibleKeySpots1 = ['locker', 'painting', 'bookself'];
 const possibleKeySpots2 = ['pot', 'laptop', 'dror', 'key'];
-
+let correctKeySpotRoom2;
 const correctKeySpotRoom1 = possibleKeySpots1[Math.floor(Math.random() * possibleKeySpots1.length)];
-const correctKeySpotRoom2 = possibleKeySpots2[Math.floor(Math.random() * possibleKeySpots2.length)];
+
 
 console.log("Room 1 key is in:", correctKeySpotRoom1);
-console.log("Room 2 key is in:", correctKeySpotRoom2);
+
 console.log("Room 1 Code:", room1Code);
 console.log("Room 2 Code:", room2Code);
 
@@ -111,6 +111,8 @@ document.getElementById('door').onclick = () => {
             clueRevealed = false;
             safeUnlockedRoom2 = false;
             document.getElementById('clue').style.visibility = 'hidden';
+            const correctKeySpotRoom2 = possibleKeySpots2[Math.floor(Math.random() * possibleKeySpots2.length)];
+            console.log("Room 2 key is in:", correctKeySpotRoom2);
         } else {
             alert("🔐 The door is locked. Find the key.");
         }
